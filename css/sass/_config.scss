@@ -1,0 +1,158 @@
+@keyframes ballrotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes ballrotate2 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(720deg);}
+}
+
+@keyframes ready {
+    0% {transform: translate(-50%,0%);}
+    50% {transform: translate(-50%,20%);}
+    100% {transform: translate(-50%,0%);}
+}
+
+@keyframes flash {
+    0% {opacity: 0;margin-top: -60%;}
+    50% {opacity: 1;margin-top: -40%;}
+    100% {opacity: 0;margin-top: -40%;}
+}
+
+// 點球結果A(左邊進球)
+
+@keyframes attackA {
+    0% {margin-top: 35%; left: 50%; width: 18%; opacity: 1;}
+    10% {margin-top: 47%; left: 10%; width: 10%;}
+    25% {margin-top: 39%; left: -16%; width: 10%;}
+    30% {margin-top: 48%; left: -16%; width: 10%;}
+    32% {margin-top: 46%; left: -14%; width: 10%;}
+    34% {margin-top: 48%; left: -12%; width: 10%;opacity: 1;}
+    50% {margin-top: 46%; left: -10%; width: 10%;}
+    55% {margin-top: 48%; left: -10%; width: 10%;opacity: 0;}
+    60% {margin-top: 48%; left: -10%; width: 10%;opacity: 0;}
+    100% {margin-top: 48%; left: -10%; width: 10%;opacity: 0;}
+
+}
+
+// 點球結果C(左邊未進球)
+
+@keyframes attackC {
+    0% {margin-top: 35%; left: 50%; width: 18%; opacity: 1;}
+    10% {margin-top: 47%; left: 10%; width: 10%;}
+    15% {margin-top: 37%; left: -1%; width: 10%; opacity: 1;}
+    35% {margin-top: 15%; left: 10%; width: 5%;opacity: 1;}
+    60% {margin-top: 15%; left: 10%; width: 5%;opacity: 0;}
+    100% {margin-top: 15%; left: 20%; width: 5%;opacity: 0;}
+}
+@keyframes hitGateLA {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(-10deg);}
+    40% {transform: rotate(10deg);}
+    65% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
+}
+@keyframes hitGateLB {
+    0% {transform: rotate(0deg);margin-top: 37.2%;left: -14%;}
+    20% {transform: rotate(-10deg);margin-top: 36.2%;left: -15%;}
+    40% {transform: rotate(10deg);margin-top: 38.2%;left: -13%;}
+    65% {transform: rotate(-10deg);margin-top: 36.2%;left: -15%;}
+    100% {transform: rotate(0deg);margin-top: 37.2%;left: -14%;}
+}
+
+
+// 點球結果B(右邊進球)
+
+@keyframes attackB {
+    0% {margin-top: 35%; left: 50%; width: 18%; opacity: 1;}
+    10% {margin-top: 47%; left: 90%; width: 10%;}
+    25% {margin-top: 39%; left: 116%; width: 10%;}
+    30% {margin-top: 48%; left: 116%; width: 10%;}
+    32% {margin-top: 46%; left: 114%; width: 10%;}
+    34% {margin-top: 48%; left: 112%; width: 10%;opacity: 1;}
+    50% {margin-top: 46%; left: 110%; width: 10%;}
+    55% {margin-top: 48%; left: 110%; width: 10%;opacity: 0;}
+    60% {margin-top: 48%; left: 110%; width: 10%;opacity: 0;}
+    100% {margin-top: 48%; left: 110%; width: 10%;opacity: 0;}
+
+}
+
+
+// 點球結果D(右邊未進球)
+
+@keyframes attackD {
+    0% {margin-top: 35%; left: 50%; width: 18%; opacity: 1;}
+    10% {margin-top: 47%; left: 90%; width: 10%;}
+    15% {margin-top: 37%; left: 99%; width: 10%; opacity: 1;}
+    35% {margin-top: 15%; left: 90%; width: 5%;opacity: 1;}
+    60% {margin-top: 15%; left: 90%; width: 5%;opacity: 0;}
+    100% {margin-top: 15%; left: 80%; width: 5%;opacity: 0;}
+}
+@keyframes hitGateRA {
+    0% {transform: rotate(0deg)rotateY(180deg);}
+    20% {transform: rotate(10deg)rotateY(180deg);}
+    40% {transform: rotate(-10deg)rotateY(180deg);}
+    65% {transform: rotate(10deg)rotateY(180deg);}
+    100% {transform: rotate(0deg)rotateY(180deg);}
+}
+@keyframes hitGateRB {
+    0% {transform: rotate(0deg)rotateY(180deg);margin-top: 37.2%;right: -14%;}
+    20% {transform: rotate(10deg)rotateY(180deg);margin-top: 36.2%;right: -15%;}
+    40% {transform: rotate(-10deg)rotateY(180deg);margin-top: 38.2%;right: -13%;}
+    65% {transform: rotate(10deg)rotateY(180deg);margin-top: 36.2%;right: -15%;}
+    100% {transform: rotate(0deg)rotateY(180deg);margin-top: 37.2%;right: -14%;}
+}
+
+// 得分 彩票
+
+@keyframes success {
+    0% {margin-top: 50%; opacity: 0; transform: translateX(-50%) scale(0,0);}
+    20% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1);}
+    50% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1);}
+    90% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1);}
+    100% {margin-top: 22%; opacity: 0; transform: translateX(-50%) scale(1,1);}
+}
+@keyframes ribbon1 {
+    0% {opacity: 1; margin: 10% 0 0 20%; transform: rotate(-45deg);}
+    20% {opacity: 1; margin: -15% 0 0 -10%; transform: rotate(-45deg);}
+    100% {opacity: 0; margin: 10% 0 0 -15%; transform: rotate(180deg);}
+}
+@keyframes ribbon2 {
+    0% {opacity: 1; margin: 10% 20% 0 0; transform: rotate(45deg);}
+    20% {opacity: 1; margin: -15% -10% 0 0; transform: rotate(45deg);}
+    100% {opacity: 0; margin: 10% -15% 0 0; transform: rotate(-180deg);}
+}
+@keyframes ribbon3 {
+    0% {opacity: 1; margin: 10% 0 0 0; transform:rotate(0deg) translateX(-50%);}
+    20% {opacity: 1; margin: -35% 0 0 0; transform: rotate(0deg) translateX(-50%);}
+    100% {opacity: 0; margin: 10% 0 0 0; transform: rotate(360deg) translateX(-50%);}
+}
+@keyframes ribbon4 {
+    0% {opacity: 1; margin: 10% 0 0 0; transform: rotate(-15deg);left:35%;}
+    20% {opacity: 1; margin: -27% 0 0 0; transform: rotate(-15deg);left:20%;}
+    100% {opacity: 0; margin: 10% 0 0 0; transform: rotate(-360deg);left:15%;}
+}
+@keyframes ribbon5 {
+    0% {opacity: 1; margin: 10% 0 0 0; transform: rotate(15deg);right: 35%;}
+    20% {opacity: 1; margin: -27% 0 0 0; transform: rotate(15deg);right: 20%;}
+    100% {opacity: 0; margin: 10% 0 0 0; transform: rotate(360deg);right: 15%;}
+}
+
+// 未得分
+@keyframes fail {
+    0% {margin-top: 50%; opacity: 0; transform: translateX(-50%) scale(0,0) rotate(0deg);transform-origin: center center;}
+    20% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1) rotate(0deg);transform-origin: center center;}
+    50% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1) rotate(0deg);transform-origin: left top;}
+    90% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1) rotate(15deg);transform-origin: left top;}
+    100% {margin-top: 22%; opacity: 0; transform: translateX(-50%) scale(1,1) rotate(15deg);transform-origin: left top;}
+}
+
+
+@keyframes success {
+    0% {margin-top: 50%; opacity: 0; transform: translateX(-50%) scale(0,0);}
+    20% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1);}
+    50% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1);}
+    90% {margin-top: 22%; opacity: 1; transform: translateX(-50%) scale(1,1);}
+    100% {margin-top: 22%; opacity: 0; transform: translateX(-50%) scale(1,1);}
+}
